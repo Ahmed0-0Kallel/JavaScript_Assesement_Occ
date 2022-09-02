@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+            <div class="div" id="main">
+
+                <div>
+                    <h3 class="title">Start:</h3> <h3 class="title" style="padding-left:150px">End:</h3>
+                </div>
+                <div id="dates_field">
+                    <div id="date0">
+                        
+                        <input type="datetime-local"  id="startDate" onblur="compare(`${this.parentElement.id}`,'startDate',`${this.value}`);"/>
+                        
+                        <input type="datetime-local"  id="endDate" onblur="compare(`${this.parentElement.id}`,'endDate', `${this.value}`);" />
+                    </div>
+                </div>
+                
+                <div><button id="addBtn">Add Another</button></div>
+                <div><button id="submitBtn">Submit</button></div>
+                <script src="main.js"></script>
+                
+            </div>
+        
+    
+    
+</body>
+</html>

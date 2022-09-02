@@ -1,0 +1,15 @@
+.title {
+    color: blue;
+    margin-left: 2;
+    display: inline-block;
+    
+  }
+
+  .div{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    max-width: 500px;
+    padding: 1em;
+  }
